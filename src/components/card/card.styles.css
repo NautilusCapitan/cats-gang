@@ -1,0 +1,16 @@
+.card {
+    text-align: center;
+    padding: 1em;
+    border-radius: 6px;
+    transition: transform 0.25s ease-in-out;
+    background-color: #ffeead;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
